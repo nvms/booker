@@ -1,6 +1,6 @@
 __pycache__
 *.pyc
-igor/__pycache__
+booker/__pycache__
 dist
 build
-igor.egg-info
+booker.egg-info
