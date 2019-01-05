@@ -5,6 +5,9 @@ Cron-esque, in-script task scheduler with an incredibly easy to use
 English syntax. Booker can make calls (tasks) with specific intervals,
 start times and end times.
 
+#### Disclaimer
+Booker is not timezone-aware and does not care about Daylight Savings Time.
+
 ```python
 booker.do(mycallable, 'every 7 days at 12:00 until 01-30-2020')
 ```
