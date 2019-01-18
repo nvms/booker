@@ -257,7 +257,7 @@ __A__: It will run, once, tomorrow at noon.
 
 ### __Q__: I have a string: `2 hours, 59 minutes, 40 seconds`, and I want to run a task 5 minutes after that. How?
 
-__A__: Use `booker.get_schedule` to get an `booker.Schedule` and add 300 seconds to its `tts` (time-to-start) property.
+__A__: Use `booker.get_schedule` to get a `booker.Schedule` and add 300 seconds to its `tts` (time-to-start) property.
 ```python
 schedule = booker.get_schedule('in 2 hours, 59 minutes, 40 seconds')
 schedule.tts = schedule.tts + 300
