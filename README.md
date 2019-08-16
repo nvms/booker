@@ -82,8 +82,8 @@ booker.do(myfunc, 'every 15 minutes in 1 hour')
 try:
     while True:
         time.sleep(1)
-    except KeyboardInterrupt:
-        sys.exit(0)
+except KeyboardInterrupt:
+    sys.exit(0)
 ```
 ## Using the function decorator
 ### Tasks that do not repeat
